@@ -1,0 +1,6 @@
+group Main
+    FSharp.Core
+    Xamarin.Forms
+    Gjallarhorn
+	Gjallarhorn.Bindable
+	Gjallarhorn.Bindable.XamarinForms

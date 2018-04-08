@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="View.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ElmInspiredOne\ElmInspiredOne.fsproj">
+      <Name>ElmInspiredOne (samples\ElmInspiredOne\ElmInspiredOne\ElmInspiredOne)</Name>
+      <Project>{7BDAE80E-995F-45D9-B034-CCF4FE226314}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="..\..\..\.paket\Paket.Restore.targets" />
+</Project>
